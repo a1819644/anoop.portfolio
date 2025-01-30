@@ -1,0 +1,42 @@
+/* Headers style */
+
+.navbar .navbar-brand {
+  font-display: auto;
+  font-size: 30px;
+  color: rgb(51, 86, 245);
+  font-weight: 700;
+}
+
+.navbar .collapse .navbar-nav {
+  margin-left: auto;
+}
+
+.navbar .collapse .navbar-nav .nav-item {
+  color: rgb(114, 111, 111);
+  padding-left: 5px;
+  padding-right: 5px;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+}
+.navbar .collapse .navbar-nav .nav-link {
+  background-repeat: none;
+}
+.navbar .collapse .navbar-nav .nav-item:hover {
+  color: rgb(51, 86, 245);
+}
+.navbar .collapse .navbar-nav .btn {
+  background-color: rgb(51, 86, 245);
+  height: fit-content;
+  padding: 0px;
+}
+.navbar .collapse .navbar-nav .nav-item .btn a {
+  color: white;
+}
+.navbar .collapse .navbar-nav .btn:hover {
+  background-color: rgba(51, 86, 245, 0);
+}
+.navbar .collapse .navbar-nav .btn a:hover {
+  color: rgb(114, 111, 111);
+}

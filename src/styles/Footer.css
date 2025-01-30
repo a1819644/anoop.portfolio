@@ -1,0 +1,40 @@
+/*  */
+.card-footers {
+  margin-top: 100px;
+  height: 200px;
+  border-radius: 10px 0px;
+  background-color: rgb(51, 86, 245);
+  text-align: center;
+  padding: 20px;
+}
+.card-footers h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+}
+.card-footers a {
+  padding: 30px;
+  font-size: medium;
+  color: white;
+  font-weight: 500;
+  list-style: none;
+  text-decoration: none;
+}
+.card-footers li {
+  padding-bottom: 10px;
+  font-size: medium;
+  color: white;
+  font-weight: 700;
+  list-style: none;
+}
+.card-footers .btn {
+  background-color: rgb(236, 75, 11);
+}
+.card-footers .btn:hover {
+  background-color: rgb(255, 255, 255);
+}
+.card-footers a:hover {
+  animation-duration: 0.3s;
+  color: rgb(0, 0, 0);
+}

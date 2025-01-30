@@ -1,0 +1,6 @@
+.container-body {
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  scroll-behavior: smooth;
+}
