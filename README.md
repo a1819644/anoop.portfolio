@@ -1,50 +1,71 @@
-# React + TypeScript + Vite
+# Anoop Kumar Kushwaha - Portfolio 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! Here, you can explore my projects, skills, and experiences in software development.
 
-Currently, two official plugins are available:
+🔗 **Live Website:** [a1819644.github.io/anoop.portfolio](https://a1819644.github.io/anoop.portfolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 About Me
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Hello! I'm Anoop, an aspiring Software Engineer pursuing a Master's in Computer Science at The University of Adelaide. I specialize in backend and full-stack development, with a passion for creating efficient and scalable solutions.
 
-- Configure the top-level `parserOptions` property like this:
+🔗 **LinkedIn:** [Anoop Kumar Kushwaha](https://www.linkedin.com/in/anoop-kumar-khushwaha-b16b64218)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🚀 Technologies & Tools
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **Languages:** Python, JavaScript, Java, Dart
+- **Frameworks:** Django, React, Flutter
+- **Tools:** Git, Docker, Jenkins
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+
+## 📂 Projects
+
+Here are some of the projects I've worked on:
+
+### 1. [InnovativeBuildCarpentry](https://github.com/a1819644/InnovativeBuild-Carpentry).
+
+A web project showcasing various functionalities, built with CSS.
+
+### 2. [SecureWrap](https://github.com/a1819644/securewrap)
+A web project for my client with various functionalities , built with react.js, typescript and firebase  
+
+### 3. [Eazy Vision Android Application](https://github.com/a1819644/Eazy_vision-android-application-project)
+
+An Android application developed using Dart, focusing on providing easy-to-use vision solutions.
+
+
+---
+
+## 📷 Screenshots
+
+# Home section
+![image](https://github.com/user-attachments/assets/451835e7-7685-4b05-bd4f-764eb56ca75d)
+
+# Skills section 
+![image](https://github.com/user-attachments/assets/a780ba16-0dba-4f03-8ff2-a84c16cb3bbe)
+
+# Projects section 
+![image](https://github.com/user-attachments/assets/98a291fd-86c5-4acd-80d9-41b0bb90e370)
+
+# Experiences section 
+![image](https://github.com/user-attachments/assets/7ecf4378-1a23-4ef2-afc3-642b6f190b3a)
+
+# Acheivements section 
+![image](https://github.com/user-attachments/assets/2ea2496d-a29f-47a5-9d7e-ea770cee7cec)
+
+
+---
+
+## 📂 How to Use This Repo
+
+To explore or contribute to this portfolio:
+
+   ```sh
+   git clone https://github.com/a1819644/anoop.portfolio.git
+   cd anoop.portfolio
+   npm install
+   npm run dev
