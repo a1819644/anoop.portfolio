@@ -23,20 +23,15 @@
 .navbar .collapse .navbar-nav .nav-link {
   background-repeat: none;
 }
-.navbar .collapse .navbar-nav .nav-item:hover {
-  color: rgb(51, 86, 245);
-}
-.navbar .collapse .navbar-nav .btn {
+.navbar .collapse .navbar-nav .nav-item .btn {
   background-color: rgb(51, 86, 245);
-  height: fit-content;
-  padding: 0px;
-}
-.navbar .collapse .navbar-nav .nav-item .btn a {
   color: white;
+  border-color: rgb(51, 86, 245) !important;
 }
-.navbar .collapse .navbar-nav .btn:hover {
-  background-color: rgba(51, 86, 245, 0);
-}
-.navbar .collapse .navbar-nav .btn a:hover {
-  color: rgb(114, 111, 111);
+
+.navbar .collapse .navbar-nav .nav-item .btn:hover {
+  border-color: rgb(51, 86, 245) !important;
+  background-color: rgb(51, 86, 245);
+  color: white;
+  border-color: rgb(51, 86, 245) !important;
 }
