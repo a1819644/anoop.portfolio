@@ -6,8 +6,10 @@ import designer from "../assets/skills/designer.png";
 const Skills = () => {
   return (
     <>
-      <div className="skills">Skills</div>
-      <div className="container stacks">
+      <div className="container-fluid contianer-skills">
+        <div className="skills">Skills</div>
+      </div>
+      <div className=" container stacks">
         <div className="row g-0">
           {/* Backend Skill */}
           <div className="col techStacks techStacks-backend">
@@ -26,7 +28,6 @@ const Skills = () => {
               <li>Firebase</li>
             </ul>
           </div>
-
           {/* Frontend Skill */}
           <div className="col techStacks techStacks-frontend">
             <img src={frontend} alt="frontend-logo" className="img-fluid" />
@@ -46,7 +47,6 @@ const Skills = () => {
               <li>Github</li>
             </ul>
           </div>
-
           {/* Designer Skill */}
           <div className="col techStacks techStacks-designer">
             <img src={designer} alt="designer-logo" className="img-fluid" />

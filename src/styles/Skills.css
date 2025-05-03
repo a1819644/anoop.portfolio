@@ -1,23 +1,26 @@
-.skills {
-  all: unset;
-  position: absolute;
+.contianer-skills {
   margin-top: 50px;
   background-color: rgb(51, 86, 245);
   display: block;
-  width: 100%;
+  width: 90%;
   height: 250px;
   color: white;
   border-radius: 20px;
-  text-align: center;
   font-size: 2.5rem;
   font-weight: 800;
   padding-top: 50px;
   overflow: hidden;
-  right: 5px;
+}
+
+.skills {
+  position: absolute;
+  text-align: center;
 }
 
 .stacks {
   margin-top: 100px;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 .img-fluid {

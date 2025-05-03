@@ -12,23 +12,22 @@ function App() {
   return (
     <div>
       <Header />
-      <div className="container-fluid container-body">
-        <div id="introduction">
-          <Introduction />
-        </div>
-        <div id="skills">
-          <Skills />
-        </div>
-        <div id="projects">
-          <Projects />
-        </div>
-        <div id="experience">
-          <Experience />
-        </div>
-        <div id="achievements">
-          <Achievements />
-        </div>
+      <div id="introduction">
+        <Introduction />
       </div>
+      <div id="skills">
+        <Skills />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="experience">
+        <Experience />
+      </div>
+      <div id="achievements">
+        <Achievements />
+      </div>
+
       <Footer />
     </div>
   );
