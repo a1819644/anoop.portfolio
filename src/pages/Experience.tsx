@@ -1,4 +1,3 @@
-
 import "../styles/Experiences.css";
 const Experience = () => {
   return (
@@ -6,9 +5,9 @@ const Experience = () => {
       <h1>Experiences</h1>
       <div className="col listExperiences">
         <div className="row">
-          <div className="col">
-            <div className="row">
-              <div className="col">
+          <div className="col  ">
+            <div className="row d-flex flex-column flex-md-row justify-content-between">
+              <div className="col ">
                 <h3>2021</h3>
               </div>
               <div className="col">
@@ -18,7 +17,7 @@ const Experience = () => {
             </div>
           </div>
           <div className="col">
-            <div className="row">
+            <div className="row d-flex flex-column flex-md-row justify-content-between">
               <div className="col">
                 <h3>2023</h3>
               </div>
@@ -34,7 +33,7 @@ const Experience = () => {
         </div>
         <div className="row rowNumber-2">
           <div className="col">
-            <div className="row">
+            <div className="row d-flex flex-column flex-md-row justify-content-between">
               <div className="col">
                 <h3>2023</h3>
               </div>
@@ -45,7 +44,7 @@ const Experience = () => {
             </div>
           </div>
           <div className="col">
-            <div className="row">
+            <div className="row d-flex flex-column flex-md-row justify-content-between">
               <div className="col">
                 <h3>2024-Pres</h3>
               </div>
@@ -58,7 +57,7 @@ const Experience = () => {
         </div>
         <div className="row rowNumber-3">
           <div className="col">
-            <div className="row">
+            <div className="row d-flex flex-column flex-md-row justify-content-between">
               <div className="col">
                 <h3>2021-Pres</h3>
               </div>
@@ -72,15 +71,13 @@ const Experience = () => {
             </div>
           </div>
           <div className="col">
-            <div className="row">
+            <div className="row d-flex flex-column flex-md-row justify-content-between">
               <div className="col">
                 <h3>2021</h3>
               </div>
               <div className="col">
                 <h4>UniHack Hackathon</h4>
-                <p>
-                  We were able get into top 10 teams.
-                </p>
+                <p>We were able get into top 10 teams.</p>
               </div>
             </div>
           </div>

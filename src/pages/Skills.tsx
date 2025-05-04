@@ -6,10 +6,10 @@ import designer from "../assets/skills/designer.png";
 const Skills = () => {
   return (
     <>
-      <div className="container-fluid contianer-skills">
+      <div className="container container-skills">
         <div className="skills">Skills</div>
       </div>
-      <div className=" container stacks">
+      <div className="container stacks">
         <div className="row g-0">
           {/* Backend Skill */}
           <div className="col techStacks techStacks-backend">

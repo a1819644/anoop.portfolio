@@ -7,9 +7,9 @@ import Hackathon from "../assets/Achievements/Hackathon.png";
 const Achievements = () => {
   return (
     <>
-      <div className="skills">Achievements</div>
+      <div className="contianer skills">Achievements</div>
       <div className="container stacks">
-        <div className="row justify-content-center g-0">
+        <div className="row justify-content-center ">
           <div className="col techStacks techStacks-backend">
             <img src={Awwward} alt=" frontend-logo" />
             <div className="col">

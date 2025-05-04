@@ -1,5 +1,8 @@
 .Experiences {
+  margin-top: 100px;
   text-align: center;
-
-  
+}
+.Experiences h1 {
+  margin-bottom: 50px;
+  font-weight: 800;
 }

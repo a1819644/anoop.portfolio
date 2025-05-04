@@ -8,12 +8,12 @@ const Projects = () => {
       <div className="Projects">
         <h1>Projects</h1>
         <p>Have a look at some of the rolled-out projects I'm proud of:</p>
-        <div className="row Projects-stack">
-          <div className="col-md-6 pic">
-            <img src={InnnovativeCaprentry} alt="" />
+        <div className="row d-flex flex-column flex-md-row justify-content-between Projects-stack">
+          <div className="col pic ">
+            <img src={InnnovativeCaprentry} alt="" className="img-fluid" />
           </div>
-          <div className="col-md-6 text-card">
-            <h2>InnovativeCarpentry</h2>
+          <div className="col text-card">
+            <h2 className="mt-6 mt-md-0">InnovativeCarpentry</h2>
             <p>
               I developed the Innovatebuild Carpentry website, which is
               mobile-friendly and designed to handle substantial traffic. The
@@ -23,12 +23,12 @@ const Projects = () => {
             <a href="https://innovatebuildcarpentry.io/">View Project</a>
           </div>
         </div>
-        <div className="row Projects-stack-2">
-          <div className="col pic">
-            <img src={Securewrap} alt="" />
+        <div className="row d-flex flex-column flex-md-row justify-content-between Projects-stack-2">
+          <div className="col  pic ">
+            <img src={Securewrap} alt="" className="img-fluid" />
           </div>
           <div className="col text-card">
-            <h2>Securewrap</h2>
+            <h2 className="mt-6 mt-md-0">Securewrap</h2>
             <p>
               I am currently developing SecureWrap, an eCommerce website for my
               client, which features 50+ products and supports secure
@@ -39,12 +39,12 @@ const Projects = () => {
             <a href="https://github.com/a1819644/Securewrap">View Project</a>
           </div>
         </div>
-        <div className="row Projects-stack-3">
-          <div className="col pic">
-            <img src={EzyBill} alt="" />
+        <div className="row d-flex flex-column flex-md-row justify-content-between Projects-stack-3">
+          <div className="col pic ">
+            <img src={EzyBill} alt="" className="img-fluid" />
           </div>
           <div className="col text-card">
-            <h2>EzyBill</h2>
+            <h2 className="mt-6 mt-md-0">EzyBill</h2>
             <p>
               We developed this application to promote fair bill sharing among
               tenants. With over 500+ users, it enables seamless group creation,

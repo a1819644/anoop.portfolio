@@ -5,7 +5,7 @@ import Introduction from "./pages/Introduction";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
-import Achievements from "./pages/Achievements";
+// import Achievements from "./pages/Achievements";
 import Footer from "./pages/Footer";
 
 function App() {
@@ -24,9 +24,9 @@ function App() {
       <div id="experience">
         <Experience />
       </div>
-      <div id="achievements">
+      {/* <div id="achievements">
         <Achievements />
-      </div>
+      </div> */}
 
       <Footer />
     </div>
