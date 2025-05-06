@@ -3,7 +3,7 @@ const Experience = () => {
   return (
     <div className="Experiences">
       <h1>Experiences</h1>
-      <div className="col listExperiences">
+      <div className=" container col listExperiences">
         <div className="row rowNumber-1">
           <div className="col  ">
             <div className="row d-flex flex-column flex-md-row justify-content-between">

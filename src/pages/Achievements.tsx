@@ -1,13 +1,14 @@
-
 import Ai from "../assets/Achievements/Ai.png";
 import Awwward from "../assets/Achievements/Awwward.png";
 import Freelance from "../assets/Achievements/Freelance.png";
 import Hackathon from "../assets/Achievements/Hackathon.png";
-
+import "../styles/Achievements.css";
 const Achievements = () => {
   return (
     <>
-      <div className="contianer skills">Achievements</div>
+      <div className="container achievements">
+        <h1>Achievements</h1>
+      </div>
       <div className="container stacks">
         <div className="row justify-content-center ">
           <div className="col techStacks techStacks-backend">
@@ -45,7 +46,8 @@ const Achievements = () => {
               <img src={Ai} alt="Ai" />
               <h2>Reasearch AI(CNN & NLP)</h2>
               <p>
-                Develop video classification logic and model for generating captions. Recieved High Distinction. 
+                Develop video classification logic and model for generating
+                captions. Recieved High Distinction.
               </p>
             </div>
           </div>

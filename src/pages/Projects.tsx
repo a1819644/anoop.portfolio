@@ -12,8 +12,8 @@ const Projects = () => {
           <div className="col pic ">
             <img src={InnnovativeCaprentry} alt="" className="img-fluid" />
           </div>
-          <div className="col text-card">
-            <h2 className="mt-6 mt-md-0">InnovativeCarpentry</h2>
+          <div className="col text-card pb-3 pb-md-2">
+            <h2 className="mt-6 mt-md-0 ">InnovativeCarpentry</h2>
             <p>
               I developed the Innovatebuild Carpentry website, which is
               mobile-friendly and designed to handle substantial traffic. The
@@ -24,11 +24,11 @@ const Projects = () => {
           </div>
         </div>
         <div className="row d-flex flex-column flex-md-row justify-content-between Projects-stack-2">
-          <div className="col  pic ">
+          <div className="col pic ">
             <img src={Securewrap} alt="" className="img-fluid" />
           </div>
-          <div className="col text-card">
-            <h2 className="mt-6 mt-md-0">Securewrap</h2>
+          <div className="col text-card pb-3 pb-md-2">
+            <h2 className="mt-6 mt-md-0  ">Securewrap</h2>
             <p>
               I am currently developing SecureWrap, an eCommerce website for my
               client, which features 50+ products and supports secure
@@ -43,8 +43,8 @@ const Projects = () => {
           <div className="col pic ">
             <img src={EzyBill} alt="" className="img-fluid" />
           </div>
-          <div className="col text-card">
-            <h2 className="mt-6 mt-md-0">EzyBill</h2>
+          <div className="col text-card pb-3 pb-md-2">
+            <h2 className="mt-6 mt-md-0  ">EzyBill</h2>
             <p>
               We developed this application to promote fair bill sharing among
               tenants. With over 500+ users, it enables seamless group creation,
