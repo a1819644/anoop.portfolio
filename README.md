@@ -26,36 +26,37 @@ Hello! I'm Anoop, an aspiring Software Engineer pursuing a Master's in Computer 
 
 Here are some of the projects I've worked on:
 
-### 1. [InnovativeBuildCarpentry](https://github.com/a1819644/InnovativeBuild-Carpentry).
+### 1. [Nubevest AI](https://ai.nubevest.com.au/)
 
-A web project showcasing various functionalities, built with CSS.
+AI-powered chat platform built with React and Node.js, integrating the Gemini API for real-time natural language processing. Features secure authentication, image generation (0.5s), multi-format document processing (up to 25MB), and real-time data syncing across devices. Engineered to handle 1,000 concurrent users with low-latency responses, ensuring a seamless experience under high load.
 
-### 2. [SecureWrap](https://github.com/a1819644/securewrap)
-A web project for my client with various functionalities , built with react.js, typescript and firebase  
+### 2. [Securewrap](https://securewrap.com.au)
 
-### 3. [Eazy Vision Android Application](https://github.com/a1819644/Eazy_vision-android-application-project)
+A full-stack eCommerce platform managing 50+ products. Implemented a custom Stripe payment gateway integration for secure transactions. Optimized MongoDB queries for fast product filtering and reliable inventory management.
 
-An Android application developed using Dart, focusing on providing easy-to-use vision solutions.
+### 3. [AI-Powered Image Tagger for SEO](https://github.com/a1819644/ai-image-tagger)
+
+Built a client-side automation tool using React and Gemini Vision AI. Engineered a batch processing pipeline that automates metadata tagging and HEIC conversion, reducing manual workflows by 90%. Implemented complex file handling with the Canvas API.
 
 
 ---
 
 ## 📷 Screenshots
 
-# Home section
-![image](https://github.com/user-attachments/assets/451835e7-7685-4b05-bd4f-764eb56ca75d)
+### Home Section
+![Home Section](./src/assets/readme_assests/herosection.png)
 
-# Skills section 
-![image](https://github.com/user-attachments/assets/a780ba16-0dba-4f03-8ff2-a84c16cb3bbe)
+### Skills Section 
+![Skills Section](./src/assets/readme_assests/skillssection.png)
 
-# Projects section 
-![image](https://github.com/user-attachments/assets/98a291fd-86c5-4acd-80d9-41b0bb90e370)
+### Projects Section 
+![Projects Section](./src/assets/readme_assests/projectssection.png)
 
-# Experiences section 
-![image](https://github.com/user-attachments/assets/7ecf4378-1a23-4ef2-afc3-642b6f190b3a)
+### Experiences Section 
+![Experiences Section](./src/assets/readme_assests/experiencessection.png)
 
-# Acheivements section 
-![image](https://github.com/user-attachments/assets/2ea2496d-a29f-47a5-9d7e-ea770cee7cec)
+### Achievements Section 
+![Achievements Section](./src/assets/readme_assests/achievementssections.png)
 
 
 ---

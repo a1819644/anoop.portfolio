@@ -39,18 +39,18 @@ const Experience = () => {
               </div>
               <div className="col">
                 <h4>University Of Adelaide</h4>
-                <p>Research Project in Computer Science and AI, A+</p>
+                <p>Research Project in computer vision, A+</p>
               </div>
             </div>
           </div>
           <div className="col">
             <div className="row d-flex flex-column flex-md-row justify-content-between">
               <div className="col">
-                <h3>2024-Pres</h3>
+                <h3>2025-Pres</h3>
               </div>
               <div className="col">
-                <h4>Full-stack Developer(Freelance)</h4>
-                <p>Recieved great feedback from my first delivery.</p>
+                <h4>Software Developer</h4>
+                <p>Recieved great feedback from my first delivery. Delivered 10+ projects successfully so far.</p>
               </div>
             </div>
           </div>
