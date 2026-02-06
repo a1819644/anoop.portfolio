@@ -7,15 +7,16 @@ const Introduction = () => {
       <div className="col">
         <h1>Anoop Kumar Kushwaha</h1>
         <p>
-          A recent Master's graduate from the University of Adelaide, I am
-          seeking a full-time role in Software Development, Web Development, or
-          AI. Eager to apply my academic knowledge and research skills, I aim to
-          contribute to innovative projects while continuously learning and
-          growing in a dynamic environment.
+          I’m a Software Developer with over 8 months of professional experience
+          working on production web applications. I hold a Master’s degree in
+          Computer Science from the University of Adelaide, where I gained
+          research experience in computer vision. I enjoy building scalable,
+          user-focused solutions, writing clean and maintainable code, and
+          learning through real-world software development.
         </p>
         <img
           src={profilePicture}
-          alt=""
+          alt="Anoop Kumar Kushwaha"
           width="auto"
           height="300"
           className="img-fluid"

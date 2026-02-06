@@ -43,7 +43,7 @@ const Achievements = () => {
           </div>
           <div className="col techStacks techStacks-designer">
             <div className="col">
-              <img src={Ai} alt="Ai" />
+              <img src={Ai} alt="Ai " />
               <h2>Reasearch AI(CNN & NLP)</h2>
               <p>
                 Develop video classification logic and model for generating

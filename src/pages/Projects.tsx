@@ -1,7 +1,7 @@
 import "../styles/Projects.css";
-import Securewrap from "../assets/projects/securewrap.png";
-import InnnovativeCaprentry from "../assets/projects/innovativeCarpentry.png";
-import EzyBill from "../assets/projects/ezbills.png";
+import Securewrap from "../assets/projects/securewraphd.gif";
+import nubevestai from "../assets/projects/nubevestaihd.gif";
+import aiImageTagger from "../assets/projects/ai-image-tagger.gif";
 const Projects = () => {
   return (
     <div className="container">
@@ -10,48 +10,69 @@ const Projects = () => {
         <p>Have a look at some of the rolled-out projects I'm proud of:</p>
         <div className="row d-flex flex-column flex-md-row justify-content-between Projects-stack">
           <div className="col pic ">
-            <img src={InnnovativeCaprentry} alt="" className="img-fluid" />
+            <img src={nubevestai} alt="" className="img-fluid" />
           </div>
           <div className="col text-card pb-3 pb-md-2">
-            <h2 className="mt-6 mt-md-0 ">InnovativeCarpentry</h2>
+            <h2 className="mt-6 mt-md-0"> Nubevest AI</h2>
             <p>
-              I developed the Innovatebuild Carpentry website, which is
-              mobile-friendly and designed to handle substantial traffic. The
-              site features a comprehensive portfolio, detailed service
-              descriptions, client testimonials, and a blog section.
+              AI-powered chat platform built with React and Node.js, integrating
+              the Gemini API for real-time natural language processing. Features
+              secure authentication, image generation(<strong>0.5s</strong>),
+              multi-format document processing (<strong>up to 25MB</strong>),
+              and real-time <strong>data syncing</strong> across devices.
+              Engineered to handle <strong>1,000</strong> concurrent users with
+              low-latency responses, ensuring a seamless experience under high
+              load.
             </p>
-            <a href="https://innovatebuildcarpentry.io/">View Project</a>
+            <a
+              href="https://ai.nubevest.com.au/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project
+            </a>
           </div>
         </div>
         <div className="row d-flex flex-column flex-md-row justify-content-between Projects-stack-2">
+          <div className="col text-card pb-3 pb-md-2">
+            <h2 className="mt-6 mt-md-0">Securewrap</h2>
+            <p>
+              A full-stack eCommerce platform managing 50+ products. Implemented
+              a custom <strong>Stripe</strong> payment gateway integration for
+              secure transactions. Optimized <strong>MongoDB</strong> queries
+              for fast product filtering and reliable inventory management.
+            </p>
+            <a
+              href="https://securewrap.com.au"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project
+            </a>
+          </div>
           <div className="col pic ">
             <img src={Securewrap} alt="" className="img-fluid" />
-          </div>
-          <div className="col text-card pb-3 pb-md-2">
-            <h2 className="mt-6 mt-md-0  ">Securewrap</h2>
-            <p>
-              I am currently developing SecureWrap, an eCommerce website for my
-              client, which features 50+ products and supports secure
-              transactions for seamless shopping. The platform is designed to
-              handle thousands of users efficiently, ensuring a smooth and
-              reliable shopping experience.
-            </p>
-            <a href="https://github.com/a1819644/Securewrap">View Project</a>
           </div>
         </div>
         <div className="row d-flex flex-column flex-md-row justify-content-between Projects-stack-3">
           <div className="col pic ">
-            <img src={EzyBill} alt="" className="img-fluid" />
+            <img src={aiImageTagger} alt="" className="img-fluid" />
           </div>
           <div className="col text-card pb-3 pb-md-2">
-            <h2 className="mt-6 mt-md-0  ">EzyBill</h2>
+            <h2 className="mt-6 mt-md-0">AI-Powered Image Taggger for SEO</h2>
             <p>
-              We developed this application to promote fair bill sharing among
-              tenants. With over 500+ users, it enables seamless group creation,
-              bill tracking with 95% accuracy, and ensures 100% transparency in
-              expense sharing, reducing disputes by 40%.
+              Built a client-side automation tool using <strong>React</strong>{" "}
+              and <strong>Gemini Vision</strong>
+              AI. Engineered a batch processing pipeline that automates metadata
+              tagging and HEIC conversion, reducing manual{" "}
+              <strong>workflows by 90%</strong>. Implemented complex file
+              handling with the Canvas API.
             </p>
-            <a href="https://github.com/a1819644/Eazy_vision-android-application-project">
+            <a
+              href="https://github.com/a1819644/ai-image-tagger"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View Project
             </a>
           </div>
@@ -59,7 +80,13 @@ const Projects = () => {
         <div className="githubButton">
           <h4>Check out, my daily coding feeds here</h4>
           <button type="button" className="btn">
-            <a href="https://github.com/a1819644">GitHub</a>
+            <a
+              href="https://github.com/a1819644"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
           </button>
         </div>
       </div>

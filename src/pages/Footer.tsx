@@ -10,7 +10,7 @@ const Footer = () => {
       <ul>
         <li>
           <button type="button" className="btn btn-outline-primary">
-            <a href="https://www.linkedin.com/in/anoop-kumar-khushwaha-b16b64218/">
+            <a href="https://www.linkedin.com/in/anoop-kumar-khushwaha-b16b64218/" target="_blank" rel="noopener noreferrer">
               Linkedin
             </a>
           </button>

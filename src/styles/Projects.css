@@ -37,14 +37,11 @@
   width: max-content;
   height: 400px;
   border-radius: 10px;
-  background: linear-gradient(
-    to top,
-    rgb(62, 145, 201) 0%,
-    rgb(107, 251, 255) 35%,
-    rgb(153, 255, 255) 70%,
-    rgb(198, 255, 255) 105%,
-    rgb(243, 255, 255) 140%
-  );
+  overflow: hidden;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .Projects .Projects-stack .text-card {
   display: flex;
@@ -59,11 +56,11 @@
 }
 
 .Projects img {
-  align-items: center;
   width: 100%;
-  height: 350px;
-  background-color: rgba(0, 0, 0, 0);
+  height: 100%;
+  object-fit: cover;
   border-radius: 10px;
+  display: block;
 }
 
 .Projects .Projects-stack-2 {
@@ -85,7 +82,11 @@
   width: max-content;
   height: 400px;
   border-radius: 10px;
-  background-color: rgb(147, 107, 211);
+  overflow: hidden;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Projects .Projects-stack-2 h2 {
@@ -121,14 +122,11 @@
   width: max-content;
   height: 400px;
   border-radius: 10px;
-  background: linear-gradient(
-    to top,
-    rgb(238, 141, 61) 0%,
-    rgb(248, 200, 137) 35%,
-    rgb(240, 167, 167) 70%,
-    rgb(198, 255, 255) 105%,
-    rgb(243, 255, 255) 140%
-  );
+  overflow: hidden;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Projects .Projects-stack-3 h2 {
@@ -177,4 +175,149 @@
 
 .Projects .githubButton .btn:hover {
   background-color: rgb(243, 7, 7) !important;
+}
+
+/* Tablet Responsiveness */
+@media (max-width: 992px) {
+  .Projects h1 {
+    margin-top: 60px;
+    font-size: 2rem;
+  }
+
+  .Projects p {
+    padding-inline: 30px;
+  }
+
+  .Projects .Projects-stack .pic,
+  .Projects .Projects-stack-2 .pic,
+  .Projects .Projects-stack-3 .pic {
+    width: 100%;
+    height: 300px;
+  }
+
+  .Projects .Projects-stack .text-card,
+  .Projects .Projects-stack-2 .text-card,
+  .Projects .Projects-stack-3 .text-card {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    padding: 20px;
+  }
+
+  .Projects img {
+    height: 280px;
+  }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .Projects h1 {
+    margin-top: 50px;
+    font-size: 1.8rem;
+  }
+
+  .Projects p {
+    padding-inline: 20px;
+    font-size: 0.95rem;
+  }
+
+  .Projects .Projects-stack,
+  .Projects .Projects-stack-2,
+  .Projects .Projects-stack-3 {
+    margin-top: 30px;
+  }
+
+  .Projects .Projects-stack .pic,
+  .Projects .Projects-stack-2 .pic,
+  .Projects .Projects-stack-3 .pic {
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    margin-bottom: 0;
+  }
+
+  .Projects .Projects-stack .text-card,
+  .Projects .Projects-stack-2 .text-card,
+  .Projects .Projects-stack-3 .text-card {
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    padding: 25px 15px;
+    margin-bottom: 30px;
+  }
+
+  .Projects img {
+    height: 220px;
+    object-fit: cover;
+  }
+
+  .Projects .Projects-stack h2,
+  .Projects .Projects-stack-2 h2,
+  .Projects .Projects-stack-3 h2 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+  }
+
+  .Projects .githubButton {
+    height: auto;
+    padding: 20px;
+  }
+
+  .Projects .githubButton h4 {
+    font-size: 1rem;
+    padding-top: 10px;
+  }
+
+  .Projects .githubButton .btn {
+    margin: 10px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 576px) {
+  .Projects h1 {
+    margin-top: 40px;
+    font-size: 1.5rem;
+  }
+
+  .Projects p {
+    padding-inline: 15px;
+    font-size: 0.9rem;
+    margin-top: 15px;
+  }
+
+  .Projects .Projects-stack .pic,
+  .Projects .Projects-stack-2 .pic,
+  .Projects .Projects-stack-3 .pic {
+    height: auto;
+    min-height: 200px;
+  }
+
+  .Projects img {
+    height: 180px;
+  }
+
+  .Projects .Projects-stack .text-card,
+  .Projects .Projects-stack-2 .text-card,
+  .Projects .Projects-stack-3 .text-card {
+    padding: 20px 12px;
+    margin-bottom: 20px;
+  }
+
+  .Projects .Projects-stack h2,
+  .Projects .Projects-stack-2 h2,
+  .Projects .Projects-stack-3 h2 {
+    font-size: 1.2rem;
+  }
+
+  .Projects .githubButton h4 {
+    font-size: 0.9rem;
+    padding: 10px 5px;
+  }
+
+  .Projects .githubButton .btn {
+    font-size: 0.85rem;
+    padding: 8px 15px;
+  }
 }
