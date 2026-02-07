@@ -69,7 +69,7 @@ const Projects = () => {
               handling with the Canvas API.
             </p>
             <a
-              href="https://github.com/a1819644/ai-image-tagger"
+              href="https://a1819644.github.io/ai-image-tagger/"
               target="_blank"
               rel="noopener noreferrer"
             >
